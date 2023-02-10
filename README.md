@@ -1,9 +1,11 @@
+# Fork of the langchain example using notion
+
 # Chat-LangChain-Notion
 
 Create a ChatGPT like experience over your Notion database using [LangChain](https://github.com/hwchase17/langchain).
 
-
 ## 📊 Example Data
+
 This repo uses the [Blendle Employee Handbook](https://www.notion.so/Blendle-s-Employee-Handbook-7692ffe24f07450785f093b94bbe1a09) as an example.
 It was downloaded October 18th so may have changed slightly since then!
 
@@ -30,6 +32,7 @@ unzip Export-d3adfe0f-3131-4bf3-8987-a52017fc1bae.zip -d Notion_DB
 Therefor, the only thing that is needed is to be done to ingest data is run `python ingest_data.py`
 
 ## Query data
+
 Custom prompts are used to ground the answers in the Blendle Employee Handbook files.
 
 ## Running the Application
